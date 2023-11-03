@@ -136,9 +136,8 @@ p {
   flex-direction: column;
 
   width: 100%;
-  height: auto;
 
-  padding: 30px;
+  padding: 0 20px 20px 20px;
 }
 
 .summarySection svg {
@@ -149,13 +148,11 @@ p {
 }
 
 .container {
-  width: 100%;
+  width: auto;
   height: 50px;
 
   padding: 15px;
   margin: 10px;
-
-  /* background-color: orange; */
 
   border-radius: 10px;
 }
@@ -184,4 +181,36 @@ p {
 
 .visual {
   color: var(--text-cobalt-blue);
+}
+
+.red {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.yellow {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.green {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.blue {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.summarySection .continueButton {
+  background-color: var(--bg-dark-grey-blue);
+
+  color: white;
+
+  border-radius: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summarySection .grey {
+  color: hsla(0, 0%, 50%, 0.6);
 }
