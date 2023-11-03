@@ -7,10 +7,17 @@ body,
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
+
+main ul {
+  list-style-type: none;
+}
+
+/* Styling zone */
 
 .attribution {
   font-size: 11px;
@@ -18,4 +25,80 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body p {
+  font-size: 18px;
+}
+
+main {
+  height: 100vh;
+}
+
+.resultSection {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 40%;
+
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+  padding: 15px;
+}
+
+.resultSection h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+  font-size: 54px;
+}
+
+.resultSection h2 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: ;
+}
+
+.resultSection h3 {
+  font-weight: 500;
+}
+
+.resultSection h3,
+p {
+  color: hsl(241, 100%, 89%);
+}
+
+.circleContainer {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 140px;
+  height: 140px;
+}
+
+.resultSection .feedbackMessage {
+  text-align: center;
+}
+
+.resultSection .feedbackMessage p {
+  margin-top: 9px;
 }
