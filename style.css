@@ -1,3 +1,14 @@
+:root {
+  --text-ligt-red: hsl(0, 100%, 67%);
+  --text-orangey-yello: hsl(39, 100%, 56%);
+  --text-green-teal: hsl(166, 100%, 37%);
+  --text-cobalt-blue: hsl(234, 85%, 45%);
+
+  --bg-pale-blue: hsl(221, 100%, 96%);
+  --bg-light-lavander: hsl(241, 100%, 89%);
+  --bg-dark-grey-blue: hsl(224, 30%, 27%);
+}
+
 /* Reset default properties */
 * {
   box-sizing: border-box;
@@ -26,6 +37,8 @@ main ul {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* Top section */
 
 body {
   font-family: "Hanken Grotesk", sans-serif;
@@ -66,7 +79,6 @@ main {
 .resultSection h2 {
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  font-size: ;
 }
 
 .resultSection h3 {
@@ -101,4 +113,75 @@ p {
 
 .resultSection .feedbackMessage p {
   margin-top: 9px;
+}
+
+/* Lower section */
+
+.summarySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-size: 18px;
+}
+
+.summarySection li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summarySection ul {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  padding: 30px;
+}
+
+.summarySection svg {
+  margin-right: 10px;
+
+  position: relative;
+  top: 2px;
+}
+
+.container {
+  width: 100%;
+  height: 50px;
+
+  padding: 15px;
+  margin: 10px;
+
+  /* background-color: orange; */
+
+  border-radius: 10px;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.reaction {
+  color: var(--text-ligt-red);
+}
+
+.memory {
+  color: var(--text-orangey-yello);
+}
+
+.verbal {
+  color: var(--text-green-teal);
+}
+
+.visual {
+  color: var(--text-cobalt-blue);
 }
