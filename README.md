@@ -23,6 +23,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Author
 
-- Linkdin - [Gurău Iulian](https://www.linkedin.com/in/gurău-iulian/)
+- Linkedin - [Gurău Iulian](https://www.linkedin.com/in/gurău-iulian/)
 - Frontend Mentor - [@giulian13](https://www.frontendmentor.io/profile/giulian13)
 - GitHub - [@giulian13](https://github.com/giulian13/)
